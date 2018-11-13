@@ -25,7 +25,7 @@ public class hw3task5 {
 		}
 		System.out.println("");
 		for (int i = 0; i < 5; i++) {
-			System.out.println(Arrays.toString(rotateMatrix90deg(M)[i]));
+			System.out.println(M[i]);
 		}
 		
 		
@@ -33,26 +33,61 @@ public class hw3task5 {
 		
 	}
 	
-	public static double[][] rotateMatrix90deg (double[][] matrix){
-		int mxlenght = 5 - 1;
-		double rotateMatrix;
-		
-		for (int i = 0; i < mxlenght / 2; i++){ 
-            
-            for (int j = i; j < 5 - 1 - i; j++){
-            	              
-            	double p1 = matrix[i][j];
-            	double p2 = matrix[j][5-i-1];
-            	double p3 = matrix[5-i-1][5-j-1];
-            	double p4 = matrix[5-j-1][i];
-                
-                matrix[j][5-i-1] = p1;
-                matrix[5-i-1][5-j-1] = p2;
-                matrix[5-j-1][i] = p3;
-                matrix[i][j] = p4; 
-            } 
-        } 		
-		return matrix;		
+	private static void tMatrix(String[][] matrix) {
+		String temp;
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < i; j++) {
+				temp = matrix[i][j];
+				matrix[i][j] = matrix[j][i];
+				matrix[j][i] = temp;
+			}
+		}
+	}
+
+	private static void verticalMirror(String[][] matrix) {
+		String temp;
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix.length / 2; j++) {
+				temp = matrix[i][j];
+				matrix[i][j] = matrix[i][matrix.length - 1 - j];
+				matrix[i][matrix.length - 1 - j] = temp;
+			}
+		}
+	}
+
+	private static void horizontalMirror(String[][] matrix) {
+		String temp;
+		for (int i = 0; i < matrix.length / 2; i++) {
+			for (int j = 0; j < matrix.length; j++) {
+				temp = matrix[i][j];
+				matrix[i][j] = matrix[matrix.length - 1 - i][j];
+				matrix[matrix.length - 1 - i][j] = temp;
+			}
+		}
+	}
+	
+	static void rotate90(String[][] matrix) {
+		tMatrix(matrix);
+		verticalMirror(matrix);
+	}
+
+	static void rotate180(String[][] matrix) {
+		verticalMirror(matrix);
+		horizontalMirror(matrix);
+	}
+
+	static void rotate270(String[][] matrix) {
+		tMatrix(matrix);
+		horizontalMirror(matrix);
+	}
+	
+	static void outputMatrix(String[][] matrix) {
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix.length; j++) {
+				System.out.print(matrix[i][j] + "\t");
+			}
+			System.out.println();
+		}
 	}
 	
 	
