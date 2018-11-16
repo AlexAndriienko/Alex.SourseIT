@@ -3,20 +3,20 @@ package ua.com.sourceit.AndriienkoHomework.HW6;
 public abstract class Sweets {
 	private String name;
 	private double weight;
-	private double sugar—ontent;
+	private double sugarContent;
 	
-	public Sweets(String name, double sugar—ontent, double weight) {
+	public Sweets(String name, double sugarContent, double weight) {
 		this.name = name;
-		this.sugar—ontent = sugar—ontent;
+		this.sugarContent = sugarContent;
 		this.weight = weight;
 	}
 
-	public double getSugar—ontent() {
-		return sugar—ontent;
+	public double getSugarContent() {
+		return sugarContent;
 	}
 
-	public void setSugar—ontent(double sugar—ontent2) {
-		this.sugar—ontent = sugar—ontent2;
+	public void setSugarContent(double sugarContent2) {
+		this.sugarContent = sugarContent2;
 	}
 
 	public double getWeight() {

@@ -2,9 +2,9 @@ package ua.com.sourceit.AndriienkoHomework.HW6;
 
 public class ChocolateCandy extends Sweets {
 
-	public ChocolateCandy(String name, double weight, double sugar—ontent) {
+	public ChocolateCandy(String name, double weight, double sugarContent) {
 
-		super(name, sugar—ontent, weight);
+		super(name, sugarContent, weight);
 
 	}
 

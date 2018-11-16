@@ -7,7 +7,7 @@ public class ChildrensGiftWeightCounter {
 	
 	public double childrensGiftWeightCounter(ArrayList<Sweets> sweets) {
 		for (Sweets sweet : sweets) {
-			childrensGiftWeight += sweet.getSugar—ontent();
+			childrensGiftWeight += sweet.getSugarContent();
 		}
 		return childrensGiftWeight;
 	}
