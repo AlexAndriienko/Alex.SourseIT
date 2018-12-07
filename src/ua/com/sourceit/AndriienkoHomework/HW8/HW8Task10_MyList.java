@@ -1,6 +1,8 @@
 package ua.com.sourceit.AndriienkoHomework.HW8;
 
-public interface HW8Task10_MyList<E>{
+import java.util.Iterator;
+
+public interface HW8Task10_MyList<E> extends Iterable<E>{
 
 	void add(E obj); // appends the specified element to the end of this list
 
@@ -19,6 +21,10 @@ public interface HW8Task10_MyList<E>{
 												// specified list
 
 	String toString();
+
+	Iterator<E> iterator();
+
+	ListIterator<E> listIterator();
 
 
 
