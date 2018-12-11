@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Set;
 
 public class HW8Task10_DefaultMyList<E> implements HW8Task10_MyList<E>, ListIterable<E> {
 
