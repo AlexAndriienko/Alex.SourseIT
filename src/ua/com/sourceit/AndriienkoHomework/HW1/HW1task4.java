@@ -13,7 +13,7 @@ public class HW1task4 {
 				sum += Integer.parseInt(String.valueOf(ch[i]));	
 			}
 		
-		System.out.println("����� ���� ����� �����: " + sum);
+		System.out.println("Сумма цифр равна: " + sum);
 	}
 }
 // cmd

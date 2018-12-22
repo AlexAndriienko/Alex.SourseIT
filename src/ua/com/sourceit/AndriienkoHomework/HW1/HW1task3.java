@@ -14,7 +14,7 @@ public class HW1task3 {
 			x = y;
 			y = i;
 		}		
-		System.out.println("���������� ����� �������� �����: " + x);	
+		System.out.println("НОД равен: " + x);	
 	}
 
 }
