@@ -4,13 +4,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 /*4
-реализовать метод, который вернет количество слов в строке текста
+СЂРµР°Р»РёР·РѕРІР°С‚СЊ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РІРµСЂРЅРµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ РІ СЃС‚СЂРѕРєРµ С‚РµРєСЃС‚Р°
 */
 
-public class hw4task4 {
+public class HW4task4 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Введите текст: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚: ");
 		ArrayList<String> text = new ArrayList<String>();
 		while (true) {
 			String Str = reader.readLine();
@@ -19,7 +19,7 @@ public class hw4task4 {
 			text.add(Str);			
 		}
 		
-		System.out.println("Текст содержит: " + countWord(text)[0] + " строк и " + countWord(text)[1] + " слов");
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ РІ РїРµСЂРІРѕР№ СЃС‚РѕРєРµ: " + countWord(text)[0] + " РІСЃРµРіРѕ СЃР»РѕРІ: " + countWord(text)[1]);
 
 	}
 

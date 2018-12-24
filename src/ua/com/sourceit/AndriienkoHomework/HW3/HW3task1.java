@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*1
-C помощью циклов нарисовать такую фигуру:
+C РїРѕРјРѕС‰СЊСЋ С†РёРєР»РѕРІ РЅР°СЂРёСЃРѕРІР°С‚СЊ С‚Р°РєСѓСЋ С„РёРіСѓСЂСѓ:
 *
 **
 ***
@@ -11,13 +11,14 @@ C помощью циклов нарисовать такую фигуру:
 ***
 **
 *
-Максимальная высота вводится с клавиатуры (в данном примере высота 4)
+РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІС‹СЃРѕС‚Р° РІРІРѕРґРёС‚СЃСЏ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹ (РІ РґР°РЅРЅРѕРј РїСЂРёРјРµСЂРµ РІС‹СЃРѕС‚Р° 4)
+
 */
 
-public class hw3task1 {
+public class HW3task1 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
-		System.out.print("Задайте высоту фигуры \nH = ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ С„РёРіСѓСЂС‹ \nH = ");
 		int H = Integer.parseInt(reader.readLine());		
 		for (int i = 1; i <= (H*2 - 1); i++) {
 			for (int j = 0; j <= (H - 1 - Math.abs(i - H)); j++) {

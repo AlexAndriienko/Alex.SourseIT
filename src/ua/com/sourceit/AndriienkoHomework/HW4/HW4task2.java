@@ -3,10 +3,10 @@ import java.util.Arrays;
 import java.util.Random;
 
 /*2
-написать метод, который принимает массив целых чисел и возвращает максимальное
+РЅР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёРЅРёРјР°РµС‚ РјР°СЃСЃРёРІ С†РµР»С‹С… С‡РёСЃРµР» Рё РІРѕР·РІСЂР°С‰Р°РµС‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ
 */
 
-public class hw4task2 {
+public class HW4task2 {
 	public static void main(String[] args) {
 		Random random = new Random();
 		int[] N = new int[10];

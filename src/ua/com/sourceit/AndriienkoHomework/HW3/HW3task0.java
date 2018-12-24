@@ -2,12 +2,12 @@ package ua.com.sourceit.AndriienkoHomework.HW3;
 import java.util.Arrays;
 
 /*0
-отсортировать строки в массиве по количеству символов в строке
+РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃС‚СЂРѕРєРё РІ РјР°СЃСЃРёРІРµ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ СЃРёРјРІРѕР»РѕРІ РІ СЃС‚СЂРѕРєРµ
 */
 
-public class hw3task0 {
+public class HW3task0 {
 	public static void main(String[] args) {
-		String[] str = {"каждый", "охотник", "желает", "знать", "где", "сидит", "фазан"};		
+		String[] str = {"wwqwq", "qwqwqwwqw", "qwqwwq", "qwqwq", "wqq", "wqqwq", "wqqwwq"};		
 		Arrays.sort(str, (str1, str2) -> str1.length() - str2.length());		
 		System.out.println(Arrays.toString(str));
 		}		
