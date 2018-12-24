@@ -3,19 +3,19 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*3
-Программа должна вывести длину окружности. Радиус задается пользователем с консоли
+РџСЂРѕРіСЂР°РјРјР° РґРѕР»Р¶РЅР° РІС‹РІРµСЃС‚Рё РґР»РёРЅСѓ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё. Р Р°РґРёСѓСЃ Р·Р°РґР°РµС‚СЃСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј СЃ РєРѕРЅСЃРѕР»Рё.
 */
 
-public class hw2task3 {
+public class HW2task3 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
-		System.out.print("ДЛИННА ОКРУЖНОСТИ \nR = ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°РґРёСѓСЃ:\nR = ");
 		double R = Double.parseDouble(reader.readLine());
 		double L  = Math.round(2*Math.PI*R*100);		
 		System.out.println("S = " + L/100);
 		}		
 	
 }
-//ДЛИННА ОКРУЖНОСТИ 
+//Р”Р»РёРЅРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё
 //R = 5
 //S = 31.42
