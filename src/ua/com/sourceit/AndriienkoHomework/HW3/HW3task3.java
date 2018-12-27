@@ -3,25 +3,26 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*3
-Нарисовать обои
+РќР°СЂРёСЃРѕРІР°С‚СЊ РѕР±РѕРё
 +++***+++***+++***
 +++***+++***+++***
 +++***+++***+++***
 +++***+++***+++***
-Пользователь может ввести количество полос. В примере выше 6 полос
-ширина рисунка тоже задается пользователем. В данном примере 3
-Опционально: задать высоту
+
+РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ РјРѕР¶РµС‚ РІРІРµСЃС‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»РѕСЃ. Р’ РїСЂРёРјРµСЂРµ РІС‹С€Рµ 6 РїРѕР»РѕСЃ
+С€РёСЂРёРЅР° СЂРёСЃСѓРЅРєР° С‚РѕР¶Рµ Р·Р°РґР°РµС‚СЃСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј. Р’ РґР°РЅРЅРѕРј РїСЂРёРјРµСЂРµ 3
+РћРїС†РёРѕРЅР°Р»СЊРЅРѕ: Р·Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ
 
 */
 
-public class hw3task3 {
+public class HW3task3 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
-		System.out.print("Задайте количество полос \nN = ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»РѕСЃ \nN = ");
 		int N = Integer.parseInt(reader.readLine());
-		System.out.print("Задайте ширину рисунка \nS = ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ СЂРёСЃСѓРЅРєР° \nS = ");
 		int S = Integer.parseInt(reader.readLine());
-		System.out.print("Задайте высоту рисунка \nL = ");
+		System.out.print("РІРІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ СЂРёСЃСѓРЅРєР° \nL = ");
 		int L = Integer.parseInt(reader.readLine());
 		
 		

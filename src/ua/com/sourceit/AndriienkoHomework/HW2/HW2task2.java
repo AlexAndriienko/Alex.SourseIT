@@ -3,13 +3,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*2
-Программа должна считать с консоли число, которое введет пользователь и вывести каждую цифру с новой строки.
+РџСЂРѕРіСЂР°РјРјР° РґРѕР»Р¶РЅР° РїРѕРґСЃС‡РёС‚С‹РІР°С‚СЊ Рё РІС‹РІРѕРґРёС‚СЊ РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°. РЎС‚РѕСЂРѕРЅС‹ Р·Р°РґР°СЋС‚СЃСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј СЃ РєРѕРЅСЃРѕР»Рё.
 */
 
-public class hw2task2 {
+public class HW2task2 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));		
-		System.out.print("ПЛОЩАДЬ ТРЕУГОЛЬНИКА \na = ");
+		System.out.print("a = ");
 		double a = Double.parseDouble(reader.readLine());
 		System.out.print("b = ");
 		double b = Double.parseDouble(reader.readLine());
@@ -21,7 +21,6 @@ public class hw2task2 {
 		}		
 	
 }
-//ПЛОЩАДЬ ТРЕУГОЛЬНИКА 
 //a = 4
 //b = 5
 //c = 6

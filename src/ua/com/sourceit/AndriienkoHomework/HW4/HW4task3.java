@@ -3,15 +3,16 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*3
-написать метод, который рисует прямоугольник из плюсиков. Входными параметрами будут два числа - ширина и высота
+РЅР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ СЂРёСЃСѓРµС‚ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє РёР· РїР»СЋСЃРёРєРѕРІ. 
+Р’С…РѕРґРЅС‹РјРё РїР°СЂР°РјРµС‚СЂР°РјРё Р±СѓРґСѓС‚ РґРІР° С‡РёСЃР»Р° - С€РёСЂРёРЅР° Рё РІС‹СЃРѕС‚Р°
 */
 
-public class hw4task3 {
+public class HW4task3 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("Задайте ширину \nS = ");
+		System.out.print("РЈРєР°Р¶РёС‚Рµ С€РёСЂРёРЅСѓ \nS = ");
 		int S = Integer.parseInt(reader.readLine());
-		System.out.print("Задайте высоту \nL = ");
+		System.out.print("РЈРєР°Р¶РёС‚Рµ РІС‹СЃРѕС‚Сѓ \nL = ");
 		int L = Integer.parseInt(reader.readLine());
 		rectangleFromplus(S, L);
 

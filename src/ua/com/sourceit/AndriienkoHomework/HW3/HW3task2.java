@@ -2,10 +2,10 @@ package ua.com.sourceit.AndriienkoHomework.HW3;
 import java.math.BigInteger;
 
 /*2
-Вывести только простые числа от 1 до 100
+Р’С‹РІРµСЃС‚Рё С‚РѕР»СЊРєРѕ РїСЂРѕСЃС‚С‹Рµ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 100
 */
 
-public class hw3task2 {
+public class HW3task2 {
 	public static void main(String[] args) throws Exception {
 		
 		for (int i = 2; i <= 100; i++) {

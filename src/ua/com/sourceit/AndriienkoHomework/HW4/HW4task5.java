@@ -5,13 +5,13 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /*5
-написать метод, который принимает массив строк и возвращает массив строк в которых больше 3 символов (стрим, фильтер)
+РЅР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёРЅРёРјР°РµС‚ РјР°СЃСЃРёРІ СЃС‚СЂРѕРє Рё РІРѕР·РІСЂР°С‰Р°РµС‚ РјР°СЃСЃРёРІ СЃС‚СЂРѕРє РІ РєРѕС‚РѕСЂС‹С… Р±РѕР»СЊС€Рµ 3 СЃРёРјРІРѕР»РѕРІ (СЃС‚СЂРёРј, С„РёР»СЊС‚РµСЂ)
 */
 
-public class hw4task5 {
+public class HW4task5 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Введите строку: ");		
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚: ");		
 		String Str = reader.readLine();
 		String[] words = Str.split("\\s+");	 
 		
